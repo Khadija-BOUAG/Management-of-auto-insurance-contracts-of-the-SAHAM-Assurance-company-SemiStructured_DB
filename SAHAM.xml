@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SAHAM_Assurance>
+<Garanties>
+<Garantie GID="obg">
+<description>Responsabilité Civile</description>
+</Garantie>
+<Garantie GID="1">
+<description>Protection juridique</description>
+</Garantie>
+<Garantie GID="2">
+<description>Incendie</description>
+</Garantie>
+<Garantie GID="3">
+<description>Dommages au véhicule</description>
+</Garantie>
+<Garantie GID="4">
+<description>Actes de vandalisme</description>
+</Garantie>
+<Garantie GID="5">
+<description>Rachat de vétusté</description>
+</Garantie>
+<Garantie GID="6">
+<description>Valeur majorée</description>
+</Garantie>
+<Garantie GID="7">
+<description>Marchandises transportées</description>
+</Garantie>
+<Garantie GID="8">
+<description>Protection conducteur et des passagers</description>
+</Garantie>
+<Garantie GID="9">
+<description>Bris de glace</description>
+</Garantie>
+<Garantie GID="10">
+<description>Vol des rétroviseurs</description>
+</Garantie>
+<Garantie GID="11">
+<description>Inondation</description>
+</Garantie>
+<Garantie GID="12">
+<description>Dommages collision étendue</description>
+</Garantie>
+<Garantie GID="13">
+<description>Perte financière</description>
+</Garantie>
+<Garantie GID="14">
+<description>Dommages tous risques</description>
+</Garantie>
+<Garantie GID="15">
+<description>Vol</description>
+</Garantie>
+<Garantie GID="16">
+<description>Dommages collision</description>
+</Garantie>
+<Garantie GID="17">
+<description>Bris de glace des rétroviseurs</description>
+</Garantie>
+<Garantie GID="18">
+<description>Evénements climatiques</description>
+</Garantie>
+<Garantie GID="19">
+<description>Dommages au véhicule limitée</description>
+</Garantie>
+<Garantie GID="20">
+<description>Aménagements professionnels et accessoires hors série</description>
+</Garantie>
+</Garanties>
+
+<Offres>
+<offre id="1">
+<nom>Assur'Auto</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2"><prix>105 </prix></garantie>
+<garantie id="3"><prix>1361</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>388</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15"><prix>105</prix></garantie>
+<garantie id="16"><prix>411</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="2">
+<nom>Assur'Auto poids lourds</nom>
+<nombre_de_véhicules>1 ou plus</nombre_de_véhicules>
+<garantie id="obg" nb_véhicule="1"><prix>2217 </prix></garantie>
+<garantie id="obg" nb_véhicule="plus que 1"><prix>0</prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2" nb_véhicule="1"><prix>105 </prix></garantie>
+<garantie id="2" nb_véhicule="plus que 1"><prix>0 </prix></garantie>
+<garantie id="3" nb_véhicule="1"><prix>1361</prix></garantie>
+<garantie id="3" nb_véhicule="plus que 1"><prix>0</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>0</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15" nb_véhicule="1"><prix>105</prix></garantie>
+<garantie id="15" nb_véhicule="plus que 1"><prix>0</prix></garantie>
+<garantie id="16" nb_véhicule="1"><prix>411</prix></garantie>
+<garantie id="16" nb_véhicule="plus que 1"><prix>0</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="3">
+<nom>Assur'Auto Rabe7</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2"><prix>21</prix></garantie>
+<garantie id="3"><prix>272.2</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>77.6</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15"><prix>21</prix></garantie>
+<garantie id="16"><prix>82.2</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="4">
+<nom>Assur’Auto Famille</nom>
+<nombre_de_véhicules>au plus 5</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2" nb_véhicule="1"><prix>105 </prix></garantie>
+<garantie id="2" nb_véhicule="plus que 1"><prix>0 </prix></garantie>
+<garantie id="3"><prix>1361</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>388</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15" nb_véhicule="1"><prix>105</prix></garantie>
+<garantie id="15" nb_véhicule="plus que 1"><prix>0</prix></garantie>
+<garantie id="16"><prix>411</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="5">
+<nom>Assur'Auto Rzana</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2196 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+</offre>
+
+<offre id="6">
+<nom>Assur’Auto Lil Mouaddaf</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2"><prix>0 </prix></garantie>
+<garantie id="3"><prix>1361</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>0</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15"><prix>0</prix></garantie>
+<garantie id="16"><prix>0</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="7">
+<nom>Assur’Auto Occasion</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2"><prix>0 </prix></garantie>
+<garantie id="3"><prix>1361</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>388</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15"><prix>105</prix></garantie>
+<garantie id="16"><prix>411</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+
+<offre id="8">
+<nom>Go Chabab</nom>
+<nombre_de_véhicules>1</nombre_de_véhicules>
+<garantie id="obg"><prix>2187 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2"><prix>105 </prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="15"><prix>105</prix></garantie>
+</offre>
+
+<offre id="9">
+<nom>Assur’ Auto TPE</nom>
+<nombre_de_véhicules>1 ou plus</nombre_de_véhicules>
+<garantie id="obg"><prix>2217 </prix></garantie>
+<garantie id="1"><prix>0</prix></garantie>
+<garantie id="2" nb_véhicule="1"><prix>105 </prix></garantie>
+<garantie id="2" nb_véhicule="plus que 1"><prix>0 </prix></garantie>
+<garantie id="3"><prix>1361</prix></garantie>
+<garantie id="4"><prix>0</prix></garantie>
+<garantie id="5"><prix>0</prix></garantie>
+<garantie id="6"><prix>0</prix></garantie>
+<garantie id="7"><prix>0</prix></garantie>
+<garantie id="8"><prix>0</prix></garantie>
+<garantie id="9"><prix>388</prix></garantie>
+<garantie id="10"><prix>0</prix></garantie>
+<garantie id="11"><prix>0</prix></garantie>
+<garantie id="12"><prix>0</prix></garantie>
+<garantie id="13"><prix>0</prix></garantie>
+<garantie id="14"><prix>0</prix></garantie>
+<garantie id="15" nb_véhicule="1"><prix>105</prix></garantie>
+<garantie id="15" nb_véhicule="plus que 1"><prix>0 </prix></garantie>
+<garantie id="16"><prix>411</prix></garantie>
+<garantie id="17"><prix>0</prix></garantie>
+<garantie id="18"><prix>0</prix></garantie>
+<garantie id="19"><prix>0</prix></garantie>
+<garantie id="20"><prix>0</prix></garantie>
+</offre>
+</Offres>
+
+<Contrats_Assurance>
+<contrat id="1">
+<propriétaire>
+<nom>Idasa</nom>
+<prénom>Inass</prénom>
+<téléphone>06.93.25.64.25</téléphone>
+<adresse>Bab-Essahra_Guelmim</adresse>
+<cin>JB2589</cin>
+<date_de_naissance>12/02/1965</date_de_naissance>
+<adresse_mail>inass.idasa@gmail.com</adresse_mail>
+<permis_de_conduite>A</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2008</date_début_de_contrat>
+<offre_choisie id="1"/>
+<véhicule>
+<marque>Dacia</marque>
+<type_de_carburant>essence</type_de_carburant>
+<matricule>25631-B-9</matricule>
+<date_de_mise_en_circulation>2008</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="5"/>
+<garantie_choisie id="16"/>
+</véhicule>
+<durée>10</durée>
+</contrat>
+
+<contrat id="2">
+<propriétaire>
+<nom>Allali</nom>
+<prénom>Imad</prénom>
+<téléphone>06.39.28.17.31</téléphone>
+<adresse>Agdal_Rabat</adresse>
+<cin>JD3698</cin>
+<date_de_naissance>15/03/1995</date_de_naissance>
+<adresse_mail>allali.imad@gmail.com</adresse_mail>
+<permis_de_conduite>A</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2011</date_début_de_contrat>
+<offre_choisie id="2"/>
+<véhicule>
+<marque>MERCEDES</marque>
+<type_de_carburant>diesel </type_de_carburant>
+<matricule>12228-A-6</matricule>
+<date_de_mise_en_circulation>2010</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="2"/>
+<garantie_choisie id="8"/>
+<garantie_choisie id="17"/>
+</véhicule>
+<véhicule>
+<marque>TOYOTA</marque>
+<type_de_carburant>essence</type_de_carburant>
+<matricule>26453-B-2</matricule>
+<date_de_mise_en_circulation>2008</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="2"/>
+</véhicule>
+<durée>15</durée>
+</contrat>
+
+<contrat id="3">
+<propriétaire>
+<nom>Somi</nom>
+<prénom>Loubna</prénom>
+<téléphone>06.19.58.37.22</téléphone>
+<adresse>Talberjt Agadir</adresse>
+<cin>JD8001</cin>
+<date_de_naissance>10/12/1970</date_de_naissance>
+<adresse_mail>somi.loubna@gmail.com</adresse_mail>
+<permis_de_conduite>B</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2011</date_début_de_contrat>
+<offre_choisie id="4"/>
+<véhicule>
+<marque>Audi e-Tron</marque>
+<type_de_carburant>éléctrique</type_de_carburant>
+<matricule>50236-A-1</matricule>
+<date_de_mise_en_circulation>2018</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="9"/>
+<garantie_choisie id="13"/>
+</véhicule>
+<véhicule>
+<marque>Audi e-Tron</marque>
+<type_de_carburant>éléctrique</type_de_carburant>
+<matricule>11200-A-1</matricule>
+<date_de_mise_en_circulation>2020</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="3"/>
+<garantie_choisie id="4"/>
+</véhicule>
+<véhicule>
+<marque>Ford</marque>
+<type_de_carburant>essence</type_de_carburant>
+<matricule>10018-A-2</matricule>
+<date_de_mise_en_circulation>2010</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="4"/>
+<garantie_choisie id="5"/>
+<garantie_choisie id="7"/>
+</véhicule>
+<durée>40</durée>
+</contrat>
+
+<contrat id="4">
+<propriétaire>
+<nom>Ben dawd</nom>
+<prénom>Ayoub</prénom>
+<téléphone>06.55.17.02.05</téléphone>
+<adresse>kerdouss quartier-Tiznit</adresse>
+<cin>JB7421</cin>
+<date_de_naissance>28/09/1965</date_de_naissance>
+<adresse_mail>bendawd.ayoub@gmail.com</adresse_mail>
+<permis_de_conduite>C</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2007</date_début_de_contrat>
+<offre_choisie id="3"/>
+<véhicule>
+<marque>Renault</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>11500-D-5</matricule>
+<date_de_mise_en_circulation>2007</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="9"/>
+<garantie_choisie id="13"/>
+<garantie_choisie id="14"/>
+<garantie_choisie id="15"/>
+</véhicule>
+<durée>25</durée>
+</contrat>
+
+<contrat id="5">
+<propriétaire>
+<nom>"Ben dawd"</nom>
+<prénom>"Hafid"</prénom>
+<téléphone>06.76.17.02.05</téléphone>
+<adresse>kerdouss quartier-Tiznit</adresse>
+<cin>"JB7521"</cin>
+<date_de_naissance>28/09/1965</date_de_naissance>
+<adresse_mail>bendawd.hafid@gmail.com</adresse_mail>
+<permis_de_conduite>C</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2007</date_début_de_contrat>
+<offre_choisie id="5"/>
+<véhicule>
+<marque>Renault</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>12500-D-5</matricule>
+<date_de_mise_en_circulation>2007</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="8"/>
+</véhicule>
+<durée>50</durée>
+</contrat>
+
+<contrat id="6">
+<propriétaire>
+<nom>ELMAHJOUBI</nom>
+<prénom>Ilhame</prénom>
+<téléphone>0676859641</téléphone>
+<adresse>AGADIR</adresse>
+<cin>JE200200</cin>
+<date_de_naissance>12/03/2000</date_de_naissance>
+<adresse_mail>ilhame.elmahjoubi@gmail.com</adresse_mail>
+<permis_de_conduite>A</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2020</date_début_de_contrat>
+<offre_choisie id="8"/>
+<véhicule>
+<marque>PEUGEOT</marque>
+<type_de_carburant>essence</type_de_carburant>
+<matricule>8002-D-1</matricule>
+<date_de_mise_en_circulation>21/05/2019</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="2"/>
+<garantie_choisie id="8"/>
+<garantie_choisie id="15"/>
+</véhicule>
+<durée>18</durée>
+</contrat>
+
+<contrat id="7">
+<propriétaire>
+<nom>KADDOURI</nom>
+<prénom>Marouane</prénom>
+<téléphone>0786954231</téléphone>
+<adresse>SAFI</adresse>
+<cin>H10506</cin>
+<date_de_naissance>25/08/1982</date_de_naissance>
+<adresse_mail>marouane.kaddouri@gmail.com</adresse_mail>
+<permis_de_conduite>C</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2013</date_début_de_contrat>
+<offre_choisie id="6"/>
+<véhicule>
+<marque>MERCEDES</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>10112-A-2</matricule>
+<date_de_mise_en_circulation>19/01/2013</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+</véhicule>
+<durée>9</durée>
+</contrat>
+
+<contrat id="8">
+<propriétaire>
+<nom>ENNACIRI</nom>
+<prénom>Souad</prénom>
+<téléphone>0651428899</téléphone>
+<adresse>LAAYOUNE</adresse>
+<cin>I22897</cin>
+<date_de_naissance>02/02/1985</date_de_naissance>
+<adresse_mail>souad.ennaciri@gmail.com</adresse_mail>
+<permis_de_conduite>B</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2016</date_début_de_contrat>
+<offre_choisie id="7"/>
+<véhicule>
+<marque>RENAULT</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>11963-B-1</matricule>
+<date_de_mise_en_circulation>01/01/2016</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="3"/>
+</véhicule>
+<durée>5</durée>
+</contrat>
+
+<contrat id="9">
+<propriétaire>
+<nom>MOUTAWAKIL</nom>
+<prénom>Khalid</prénom>
+<téléphone>0672418919</téléphone>
+<adresse>Essaouira</adresse>
+<cin>U242136</cin>
+<date_de_naissance>15/12/1975</date_de_naissance>
+<adresse_mail>moutaouakil.khalid@gmail.com</adresse_mail>
+<permis_de_conduite>C</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2016</date_début_de_contrat>
+<offre_choisie id="9"/>
+<véhicule>
+<marque>Citroën</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>12364-D-1</matricule>
+<date_de_mise_en_circulation>03/05/2014</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="2"/>
+<garantie_choisie id="9"/>
+<garantie_choisie id="15"/>
+<garantie_choisie id="16"/>
+</véhicule>
+<véhicule>
+<marque>Citroën</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>11364-A-1</matricule>
+<date_de_mise_en_circulation>03/05/2014</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="2"/>
+<garantie_choisie id="9"/>
+<garantie_choisie id="15"/>
+<garantie_choisie id="16"/>
+</véhicule>
+<durée>8</durée>
+</contrat>
+
+<contrat id="10">
+<propriétaire>
+<nom>ECHEIKH</nom>
+<prénom>Asmae</prénom>
+<téléphone>0676421763</téléphone>
+<adresse>Ifrane</adresse>
+<cin>DB10250</cin>
+<date_de_naissance>26/12/1988</date_de_naissance>
+<adresse_mail>asmae.echeikh@gmail.com</adresse_mail>
+<permis_de_conduite>C</permis_de_conduite>
+</propriétaire>
+<date_début_de_contrat>2016</date_début_de_contrat>
+<offre_choisie id="6"/>
+<véhicule>
+<marque>DACIA</marque>
+<type_de_carburant>diesel</type_de_carburant>
+<matricule>10250-A-1</matricule>
+<date_de_mise_en_circulation>25/11/2016</date_de_mise_en_circulation>
+<garantie_choisie id="obg"/>
+<garantie_choisie id="1"/>
+<garantie_choisie id="3"/>
+</véhicule>
+<durée>20</durée>
+</contrat>
+</Contrats_Assurance>
+</SAHAM_Assurance>

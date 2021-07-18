@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="SAHAM_Assurance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Garanties"/>
+        <xs:element ref="Offres"/>
+        <xs:element ref="Contrats_Assurance"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:key name="clé_garantie">
+    <xs:selector xpath="Garanties/Garantie"/>
+    <xs:field xpath="@GID"/>
+    </xs:key>
+    <xs:key name="clé_offre">
+    <xs:selector xpath="Offres/offre"/>
+    <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:key name="clé_contrat">
+    <xs:xelector xpath="Contrats_Assurance/contrat"/>
+    <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:keyref name="offretogarantie" refer="clé_garantie">
+    <xs:selector xpath="Offres/offre/garantie"/>
+    <xs:field xpath="@id"/>
+    </xs:keyref>
+    <xs:keyref name="contrattogarantie" refer="clé_garantie">
+    <xs:selector xpath="Contrats_Assurance/contrat/véhicule/garantie_choisie"/>
+    <xs:field xpath="@id"/>
+    </xs:keyref>
+    <xs:keyref name="contrattooffre" refer="clé_offre">
+    <xs:selector xpath="Contrats_Assurance/contrat/offre_choisie"/>
+    <xs:field xpath="@id"/>
+    </xs:keyref>
+    
+  </xs:element>
+  <xs:element name="Garanties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Garantie" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Garantie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="description" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="GID" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Offres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="offre" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="nombre_de_véhicules" type="xs:string"/>
+        <xs:element ref="garantie" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="garantie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="prix" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+      <xs:attribute name="nb_véhicule" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Contrats_Assurance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="contrat" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contrat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="propriétaire"/>
+        <xs:element name="date_début_de_contrat" type="xs:string"/>
+        <xs:element ref="offre_choisie"/>
+        <xs:element ref="véhicule" maxOccurs="unbounded"/>
+        <xs:element name="durée" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="propriétaire">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prénom" type="xs:string"/>
+        <xs:element name="téléphone" type="xs:string"/>
+        <xs:element name="adresse" type="xs:string"/>
+        <xs:element name="cin" type="xs:string"/>
+        <xs:element name="date_de_naissance" type="xs:string"/>
+        <xs:element name="adresse_mail" type="xs:string"/>
+        <xs:element name="permis_de_conduite" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offre_choisie">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="véhicule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="marque" type="xs:string"/>
+        <xs:element name="type_de_carburant" type="xs:string"/>
+        <xs:element name="matricule" type="xs:string"/>
+        <xs:element name="date_de_mise_en_circulation" type="xs:string"/>
+        <xs:element ref="garantie_choisie" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="garantie_choisie">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

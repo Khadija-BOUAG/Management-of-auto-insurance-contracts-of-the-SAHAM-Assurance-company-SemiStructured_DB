@@ -1,0 +1,42 @@
+<!ELEMENT SAHAM_Assurance (Garanties, Offres, Contrats_Assurance)>
+<!ELEMENT Garanties (Garantie+)>
+<!ELEMENT Garantie (description)>
+<!ATTLIST Garantie
+          GID CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT Offres (offre+)>
+<!ELEMENT offre (nom, nombre_de_véhicules, garantie+)>
+<!ATTLIST offre
+          id CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT nombre_de_véhicules (#PCDATA)>
+<!ELEMENT garantie (prix)>
+<!ATTLIST garantie
+          id CDATA #REQUIRED
+          nb_véhicule CDATA #IMPLIED>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT Contrats_Assurance (contrat+)>
+<!ELEMENT contrat (propriétaire, date_début_de_contrat, offre_choisie, véhicule+, durée)>
+<!ATTLIST contrat
+          id CDATA #REQUIRED>
+<!ELEMENT propriétaire (nom, prénom, téléphone, adresse, cin, date_de_naissance, adresse_mail, permis_de_conduite)>
+<!ELEMENT prénom (#PCDATA)>
+<!ELEMENT téléphone (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT cin (#PCDATA)>
+<!ELEMENT date_de_naissance (#PCDATA)>
+<!ELEMENT adresse_mail (#PCDATA)>
+<!ELEMENT permis_de_conduite (#PCDATA)>
+<!ELEMENT date_début_de_contrat (#PCDATA)>
+<!ELEMENT offre_choisie (#PCDATA)>
+<!ATTLIST offre_choisie
+          id CDATA #REQUIRED>
+<!ELEMENT véhicule (marque, type_de_carburant, matricule, date_de_mise_en_circulation, garantie_choisie+)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT type_de_carburant (#PCDATA)>
+<!ELEMENT matricule (#PCDATA)>
+<!ELEMENT date_de_mise_en_circulation (#PCDATA)>
+<!ELEMENT garantie_choisie (#PCDATA)>
+<!ATTLIST garantie_choisie
+          id CDATA #REQUIRED>
+<!ELEMENT durée (#PCDATA)>
